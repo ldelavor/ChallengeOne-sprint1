@@ -6,27 +6,42 @@
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
     </head>
     <body>
-        <div class="alura-box">
-                <img class="image-alura" src="images/Vector.png">
-        </div>
-        <section class="pergunta">
-            <div class="textarea-box">
-                <form>
-                    <textarea class="texto" cols="30" rows="5" required placeholder="Digite seu texto aqui"></textarea>
-                </form>
+        <header>
+            <div class="alura-box">
+                <h1 class="titulo">ChallengeONE by Alura: Sprint01 - Mensagem criptografada</h1>
+                <img class="image-alura" src="images/Vector.png">                
             </div>
-            <!--<img class="image-man" src="images/High quality products 1 1.png"-->
-            <p>Apenas letras minúsculas e sem acento.</p>
-            <div class="botoes">
-                <button class="cripto">Criptografar</button>
-                <button class="descripto">Descriptografar</button>
-            </div>
-        </section>
-        <section class="resposta">
-            <p class="any">Nenhuma mensagem encontrada</p>
-            <p class="lembrete">Digite um texto que deseja criptografar ou descriptografar.</p>
-        </section>
+        </header>
+        <main>
+            <section class="left-side">
+                <div class="textarea-box">
+                    <form>
+                        <textarea class="mensagem" cols="30" rows="5" required placeholder="Digite seu texto aqui"></textarea>
+                    </form>
+                </div>
+                <div class="exclamation">                      
+                    <p><iconify-icon icon="bi:exclamation-circle-fill"></iconify-icon>Apenas letras minúsculas e sem acento.</p>
+                </div>            
+                <div class="botoes">
+                        <button class="cripto">Criptografar</button>
+                        <button class="descripto">Descriptografar</button>
+                </div>
+            </section>
+            <section class="right-side">
+                <div>
+                    <img class="image-man" src="images/High quality products 1 1.png">
+                </div>
+                <div class="resposta-box">
+                    <p class="any">Nenhuma mensagem encontrada</p>
+                    <p class="lembrete">Digite um texto que deseja criptografar ou descriptografar.</p>
+                </div>
+            </section>
+        </main>
+        <footer class="autor">
+            <p>&copy ldelavor</p>
+        </footer>
     </body>
 </html>
