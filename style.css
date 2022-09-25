@@ -40,7 +40,7 @@ body {
 
 .textarea-box {
     display: inline-block;
-    margin: 4em 0 0 7em;
+    margin: 4em 0 0 8em;
     padding: 1em 1em;
 }
 
@@ -52,11 +52,26 @@ body {
     resize: none;
 }
 
+.mensagem::placeholder{
+    color: #0A3871;
+}
+
 .botoes {
     position: absolute;
     bottom: 5em;
     text-align: center;
     width: 58%;
+}
+
+.exclamation {
+    position: absolute;
+    bottom: 11em;
+    text-align: center;
+    width: 58%;
+}
+
+i {
+    padding-right: 0.5em;
 }
 
 .cripto {
@@ -93,18 +108,17 @@ body {
     gap: 8px;
 
     width: 30%;
-
-
     background: #D8DFE8;
     border: 1px solid #0A3871;
     border-radius: 24px;
+    color: #0A3871;
 
     flex: none;
     order: 1;
     flex-grow: 0;
 }
 
-.right-side{
+.right-side {
     text-align: right;
     width: 35%;
     height: 80%;
@@ -119,12 +133,18 @@ body {
 }
 
 .image-man {
-    
+    padding-top: 1.5em;
 }
 
-.lembrete{
-    position: relative;
-    top: 10em;
+.any {
+    font-weight: bold;
+    padding-top: 3em;
+    font-size: 1.1em;
+}
+
+.lembrete {
+    display: block;
+    padding-top: 2em;
 }
 
 .resposta-box {
