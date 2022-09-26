@@ -164,3 +164,155 @@ i {
     font-style: italic;
     padding-top: 0.8em;
 }
+
+@media screen and (max-width: 480px){    
+    
+    /* Header changes*/
+    header {
+        display: block;
+        width: auto;
+    }
+
+    .image-alura {
+        display: block;
+        position: static;
+        padding: 1em 0 0 1em;
+    }
+
+    .titulo {
+        padding: 0.5em;
+    }
+
+    /* Leftside changes*/
+    .left-side {
+        width: inherit;
+    }
+
+    .mensagem {
+        display: block;
+        margin: 1.5em 0 0 0;
+        padding: 2px 0 0 2px;
+        font-size: 2em;
+    }
+
+    .textarea-box {
+        margin: 0;
+    }
+
+    .botoes, .exclamation {
+        width: auto;
+        display: block;
+        position: inherit;
+        text-align: center;
+        padding: 0.5em 0;
+    }
+
+    .cripto, .descripto{
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        margin: 0.5em 0;
+        padding: 1.2em 0;
+        
+        font-size: 1em;
+    }
+
+    /*Rightside changes*/
+    .right-side {
+        width: auto;
+        height: auto;
+        display: block;
+        position: static;
+        margin: 2em 1.5em 1em;
+    }
+
+    .tela-resposta{
+        display: none;
+    }
+
+    .any{
+        padding: 1em 0;
+        font-size: 1.5em;
+    }
+
+    .lembrete{
+        font-size: 1em;
+        padding: 0.5em 0 1em 0;
+    }
+    
+}
+
+@media screen and (max-width: 770px) and (min-width: 481px){
+     /* Header changes*/
+     header {
+        display: block;
+        width: auto;
+    }
+
+    .image-alura {
+        display: block;
+        position: static;
+        padding: 1em 0 0 1em;
+    }
+
+    .titulo {
+        padding: 0.5em;
+    }
+
+    /* Leftside changes*/
+    .left-side {
+        width: inherit;
+    }
+
+    .mensagem {
+        display: block;
+        margin: 2em 0 0 0;
+        padding: 2px 0 0 2px;
+        font-size: 2em;
+    }
+
+    .textarea-box {
+        margin: 0;
+    }
+
+    .botoes, .exclamation {
+        width: auto;
+        display: block;
+        position: inherit;
+        text-align: center;
+        padding: 0.5em 0;
+    }
+
+    .cripto, .descripto{
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        margin: 0.5em 0;
+        padding: 1.2em 0;
+        
+        font-size: 1em;
+    }
+
+    /*Rightside changes*/
+    .right-side {
+        width: auto;
+        height: auto;
+        display: block;
+        position: static;
+        margin: 2em 1.5em 1em;
+    }
+
+    .tela-resposta{
+        display: none;
+    }
+
+    .any{
+        padding: 1em 0;
+        font-size: 1.5em;
+    }
+
+    .lembrete{
+        font-size: 1em;
+        padding: 0.5em 0 1em 0;
+    }
+}

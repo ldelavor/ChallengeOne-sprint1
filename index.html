@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
         <title>ChallengeONE - Sprint 01</title>
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
@@ -19,7 +20,7 @@
             <section class="left-side">
                 <div class="textarea-box">
                     <form>
-                        <textarea class="mensagem" cols="30" rows="5" required placeholder="Digite seu texto aqui"></textarea>
+                        <textarea type="text" id="message" class="mensagem" required placeholder="Digite seu texto aqui"></textarea>
                     </form>
                 </div>
                 <div class="botoes-box">
@@ -27,13 +28,14 @@
                         <p><i class="fa-solid fa-circle-exclamation"></i>Apenas letras minúsculas e sem acento.</p>
                     </div>            
                     <div class="botoes">
-                            <button class="cripto">Criptografar</button>
-                            <button class="descripto">Descriptografar</button>
+                            <button id="criptografar" class="cripto">Criptografar</button>
+                            <button id="descriptografar" class="descripto">Descriptografar</button>
                     </div>
                 </div>
             </section>
             <section class="right-side">
-                <div>
+                <div class="tela-resposta">
+                    <script src="sprint1.js"></script>
                     <img class="image-man" src="images/High quality products 1 1.png">
                 </div>
                 <div class="resposta-box">
